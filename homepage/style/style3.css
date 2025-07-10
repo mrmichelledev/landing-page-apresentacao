@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Inter&family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
 
 *{
@@ -14,9 +15,7 @@ body{
 }
 
 header{
-    width: 100vw;
-    height: 20vh;
-    padding: 2rem 5rem 0rem 5rem;
+    padding: 30px 100px 50px 100px;
 }
 
 
@@ -70,14 +69,13 @@ main section{
 }
 
 main section iframe{
-    
     padding: 1vw 0px;
 }
 
 h1{
     font-size: 3rem;
     color: #160e4f;
-    padding: 2% 1% 3% 1%;
+    padding: 1%;
     font-weight: 800;
 }
 
@@ -105,11 +103,11 @@ main section ul li:hover {
 .container-slider{
     display: flex;
     width: 100%;
-    min-height: 100vh;
+    min-height: 110vh;
     align-items: center;
     justify-content: center;
     gap: 1rem;
-    transform: translateY(-2rem);
+    transform: translateY(0rem);
 }
 
 .container-main{

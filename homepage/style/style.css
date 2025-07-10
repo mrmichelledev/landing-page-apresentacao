@@ -14,7 +14,7 @@ body{
 }
 
 header{
-    padding: 2rem 5rem 0rem 5rem;
+    padding: 30px 100px 50px 100px;
 }
 
 .navigation{
@@ -99,4 +99,3 @@ main section{
 .main-image img{
     width: 60vw;
 }
-

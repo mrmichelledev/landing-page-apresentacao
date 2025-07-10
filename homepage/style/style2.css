@@ -14,7 +14,7 @@ body{
 }
 
 header{
-    padding: 2rem 5rem 5rem 5rem;
+    padding: 30px 100px 50px 100px;
 }
 
 .navigation{
@@ -52,7 +52,7 @@ header{
 }
 
 main {
-    width: 100vw;
+    width: 100%;
     background: linear-gradient(209deg, rgba(182,226,251,1) 0%, rgba(152,157,249,1) 58%);
     border-radius: 60% 20% / 10% 40% 0 0;
     transform: translateY(-3rem);
@@ -98,7 +98,7 @@ section p{
 }
 
 footer{
-    width: 100vw;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
