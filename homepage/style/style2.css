@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    list-style: none; /*tirar os pontos do ul li*/
+    text-decoration: none; /*tirar o sublinhado*/
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background: #FFFFFF;
+}
+
+header{
+    padding: 2rem 5rem 5rem 5rem;
+}
+
+.navigation{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navigation .logo{
+    width: 8%;
+}
+
+.navigation ul{
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+
+.navigation ul li a{
+    color: #c6c4c6;
+    font-weight: 600;
+    padding-bottom: 4px;
+    transition: all 0.5 case-in-out;
+    padding: 10px;
+}
+
+.navigation ul li a:hover{
+    border-bottom: 2px solid  #c6c4c6;
+}
+
+.navigation .check{
+    background-image: linear-gradient(232deg, #9b39b1, #4832D9);
+    color: #FFFFFF;
+    border-radius: 60px;
+}
+
+main {
+    width: 100vw;
+    background: linear-gradient(209deg, rgba(182,226,251,1) 0%, rgba(152,157,249,1) 58%);
+    border-radius: 60% 20% / 10% 40% 0 0;
+    transform: translateY(-3rem);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main section{
+    width: 60%;
+    color: #FFFFFF;
+    text-align: justify;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+section h1{
+    padding-top: 60px;
+    font-size: 3.5rem;
+    font-weight: 600;
+}
+
+section p{
+    font-size: 1rem; 
+    padding-top: 30px;
+}
+
+.btn{
+    padding: 10px 25px;
+    background: #C1188D;
+    color: #FFFFFF;
+    border-radius: 20px;
+    font-size: 1.5rem;
+    transition: all 0.5s;
+    margin: 30px 0px;
+    font-weight: 500;
+}
+
+ .btn:hover{
+    opacity: .85;
+}
+
+footer{
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer section{
+    width: 80%;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+section img{
+    width: 40%;
+}
+
+section .txt{
+    width: 50%;
+    text-align: start;
+}
+
+section .txt h4{
+    color: #000000;
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+section .txt p{
+    font-size: 1rem;
+    color: #a2a1a7;
+}
